@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\large\bfseries}
+\usepackage{hyperref}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\def\texinput#1{\input{tex_files/#1}}
+\usepackage{indentfirst}
+\setlength{\parindent}{1.5cm}
+
+\title{\textbf{An Introduction to Quantum Cryptography}}
+\author{{\large Christos Karageorgiou Kaneen}
+    \vspace{0.3in}\\
+    \emph {School of Electrical and Computer Engineering},\\
+    \emph {Technical University of Crete}
+    \vspace{0.1in}\\
+    \href{mailto:ckarageorgkaneen@gmail.com}
+    {ckarageorgkaneen@gmail.com}}
+\date{June, 2018}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	\texinput{abstract}
+\end{abstract}
+\newpage
+
+\section{Introduction}
+    \subsection{A brief overview}
+        \texinput{a_brief_overview}
+    \newpage
+    \subsection{Classical cryptography}
+        \texinput{classical_cryptography}
+    \newpage
+\section{Quantum Key Distribution}
+    \texinput{quantum_key_distribution}
+\newpage
+\section{QKD Protocols}
+    \subsection{BB84}
+        \subsubsection{Communicating the key}
+            \texinput{bb84_communicating_the_key}
+        \newpage
+        \subsubsection{Detecting an eavesdropper}
+            \texinput{bb84_detecting_an_eavesdropper}
+        \newpage
+    \subsection{E91}
+        \subsubsection{Prerequisites}
+            \texinput{e91_prerequisites}
+        \newpage
+        \subsubsection{Description}
+            \texinput{e91_description}
+        \newpage
+\end{document}

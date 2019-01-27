@@ -1,0 +1,29 @@
+The EPR paradox, although, initially designed to demonstrate quantum mechanics' incompleteness 
+as a physical theory, subsequently came to show how it defies classical intuition.
+Einstein, Podolsky \& Rosen mainly relied on two classical principles: locality and realism,
+stating that distant objects cannot have direct influence on one another and that there
+exists a reality that is independent of an observer or measurer. Quantum cryptography
+violates both by adhering to the following principles:
+\begin{center}
+  \begin{enumerate}
+    \item The polarization of a photon cannot be measured in non-compatible bases
+          at the same time (e.g. bases `$\bm{+}$' and `$\bm{\times}$' ).
+    \item Individual quantum processes cannot be distinctly described.
+    \item Measuring a quantum system always disturbs it.
+    \item It is impossible to duplicate unknown quantum states.
+  \end{enumerate}
+\end{center}
+The third principle plays an essential role in ensuring that the most valued property of
+quantum cryptography, its security, is preserved. It implies, as has already been examined,
+that Eve cannot eavesdrop on a message sent between Bob and Alice, without altering it,
+and therefore being exposed. And she cannot conceal herself due to the fourth principle.
+The E91 protocol further exploits quantum entanglement in which although no definite
+conclusions can be made about the state of each of the particle before measurement, the
+state of both particles is well defined, post-measurement.
+Quantum entanglement refers to the inability to define the quantum state of one object
+without reference to the quantum state of another object, entangled to the first.
+Up until now we have seen the BB84 protocol of which the E91 protocol is a modification.
+The former used four quantum states, with each pair making up a different base.
+Alice sent particles to Bob in one of the four states, and Bob randomly selected bases in
+which to measure the particles. As shall be discussed, E91 uses six and also
+EPR states are taken into consideration.
